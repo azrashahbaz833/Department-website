@@ -1,0 +1,43 @@
+* Body styling */
+body {
+    font-family: Arial, sans-serif;   /* Text font */
+    background-color: #f4f6f9;       /* Background color */
+    margin: 0;                        /* Page edge remove */
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #003366;  /* Dark blue bar */
+    padding: 15px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;               /* Text color */
+    text-decoration: none;      /* Underline remove */
+    margin: 15px;               /* Spacing */
+    font-size: 18px;
+}
+
+/* Navigation hover effect */
+nav a:hover {
+    color: #ffd700;             /* Yellow on hover */
+}
+
+/* Container box for content */
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Images styling */
+img {
+    display: block;
+    margin: auto;s
+    border-radius: 10px;
+}
